@@ -1,0 +1,18 @@
+@import "../../styles/variables.scss";
+@import "../../styles/mixins.scss";
+
+.form-container {
+  @include push-top(8);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .avatar {
+    background-color: $base-color !important;
+  }
+
+  #loginButton {
+    background-color: $base-color;
+    @include push-all(3, 0, 2, 0);
+  }
+}

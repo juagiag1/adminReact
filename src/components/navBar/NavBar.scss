@@ -1,0 +1,21 @@
+@import "../../styles/variables.scss";
+@import "../../styles/mixins.scss";
+
+.nav-container {
+  flex-grow: 1;
+
+  .MuiAppBar-colorPrimary {
+    background-color: $base-color !important;
+  }
+  .menuButton {
+    @include push-right(2);
+  }
+
+  .logo-title {
+    flex-grow: 1;
+  }
+
+  .sign-out-button {
+    color: $white !important;
+  }
+}

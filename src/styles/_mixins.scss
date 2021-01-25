@@ -1,0 +1,14 @@
+@import "./variables";
+
+//Margin
+@mixin push-top($n: 4) {
+  margin-top: $n * $spacing;
+}
+
+@mixin push-right($n: 4) {
+  margin-right: $n * $spacing;
+}
+
+@mixin push-all($a: 4, $b: 4, $c: 4, $d: 4) {
+  margin: $a * $spacing $b * $spacing $c * $spacing $d * $spacing;
+}

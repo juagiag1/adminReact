@@ -1,0 +1,28 @@
+@import "../../styles/variables.scss";
+@import "../../styles/mixins.scss";
+
+.admin-container {
+  flex-grow: 1;
+
+  .MuiTabs-indicator {
+    background-color: $secondary-color !important;
+  }
+
+  .MuiAppBar-colorPrimary {
+    background-color: $base-color !important;
+  }
+
+  .main-container {
+    padding-bottom: 1rem;
+
+    .MuiButton-containedPrimary {
+      background-color: $base-color !important;
+    }
+  }
+
+  .admin-loading {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+  }
+}
